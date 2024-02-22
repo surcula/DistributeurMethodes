@@ -29,7 +29,7 @@ do
 {
     Console.WriteLine($"Voici le total à payer : {total}");
     userMenu = Outils.Menu(ref Outils.dictionnaryDistributeur);
-    total += Outils.Choix(string userMenu, ref Outils.dictionnaryDistributeur);
+    total += Outils.Choix(userMenu, ref Outils.dictionnaryDistributeur);
 
 } while (userMenu != "4");
 
